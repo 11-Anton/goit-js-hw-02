@@ -1,5 +1,5 @@
 function getShippingCost(country) {
-    switch (country.tolowerCase()) {
+    switch (country.toLowerCase()) {
         case `china`:
             return "Shipping to China will cost 100 credits";
         case `chile`:
